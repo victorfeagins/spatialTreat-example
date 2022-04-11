@@ -1,0 +1,4 @@
+```{r}
+writeLines(getwd(), "WorkingDirectory.txt")
+```
+
