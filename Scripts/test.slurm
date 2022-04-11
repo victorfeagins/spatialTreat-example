@@ -6,7 +6,6 @@
 #SBATCH -p compute1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --mem-per-cpu=500M
 
 ml R/4.1.1 #Loads R module
 
