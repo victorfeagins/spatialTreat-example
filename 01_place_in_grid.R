@@ -2,7 +2,7 @@
 library(dplyr)
 library(reticulate)
 library(sf)
-
+use_condaenv("Space")
 
 ## ----set-seed----------------------------------------------------------------------------
 set.seed(24601)
