@@ -6,6 +6,7 @@
 #SBATCH -p compute1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
+#SBATCH --mem=4GB
 
 eval "$(conda shell.bash hook)"
 
