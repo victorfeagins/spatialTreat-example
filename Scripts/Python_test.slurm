@@ -7,6 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 
-conda activate Space
+conda init Space
 
 python Python_test.py
