@@ -7,6 +7,8 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 
-conda init Space
+eval "$(conda shell.bash hook)"
+
+conda activate Space
 
 python Python_test.py
