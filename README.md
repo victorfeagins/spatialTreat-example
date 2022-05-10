@@ -1,3 +1,24 @@
+# UTSA Computing Cluster Arc
+### To use sf package in R
+Modules needed:
+- gdal
+- proj
+- sqlite
+- geos
+
+When using R and python together the `use_condaenv(yourenv)` function should be used in the script to make sure R has access to all the necessary python things.
+
+### To use Anaconda envrioment in Slurm script
+Here is an example: https://www.carc.usc.edu/user-information/user-guides/software-and-programming/anaconda
+Have to initialize anaconda enviroment in the script
+by running `eval "$(conda shell.bash hook)"`
+Then activating conda enviroment
+
+`conda activate yourenv`
+
+
+
+
 # spatialTreat-example
 a simple example for estimating the causal effects of spatial treatments, following Pollmann (2021).
 
