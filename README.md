@@ -5,6 +5,7 @@ Modules needed:
 - proj
 - sqlite
 - geos
+
 When using R and python together the `use_condaenv(yourenv)` function should be used in the script to make sure R has access to all the necessary python things.
 
 ### To use Anaconda envrioment in Slurm script
