@@ -8,6 +8,7 @@ Modules needed:
 
 When using R and python together the `use_condaenv(yourenv)` function should be used in the script to make sure R has access to all the necessary python things.
 
+More info: https://hpcsupport.utsa.edu/foswiki/bin/view/ARC/WebHome 
 ### To use Anaconda envrioment in Slurm script
 Here is an example: https://www.carc.usc.edu/user-information/user-guides/software-and-programming/anaconda
 Have to initialize anaconda enviroment in the script
